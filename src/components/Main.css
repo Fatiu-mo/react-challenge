@@ -1,0 +1,98 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: rgb(209, 208, 208);;
+  border-radius: 1rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.static {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.static div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day {
+  padding-left: 1.5rem;
+  font-weight: bold;
+}
+
+.time {
+  padding-left: 3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.weather-info p{
+  margin: 0;
+}
+
+.degree {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+
+.weather-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.text-input {
+  margin-right: 2rem;
+  height: 1.5rem;
+  width: 15rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding-left: 0.8rem;
+  background: white;
+  color: black;
+}
+
+::placeholder {
+  font-size: 0.7rem;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+}
+.btn button {
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
