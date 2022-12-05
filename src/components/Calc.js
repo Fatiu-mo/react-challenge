@@ -5,7 +5,7 @@ import {BsSnow2} from 'react-icons/bs'
 import Clock from './Clock.js'
 import clsx from "clsx"
 
-export default function Main() {
+export default function Calc() {
   const [temp, setTemp] = useState("")
   const [tempC, setTempC] = useState()
   const [icon, setIcon] = useState()

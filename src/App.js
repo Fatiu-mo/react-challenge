@@ -1,7 +1,8 @@
 import React from 'react';
 import './style.css';
 import Header from './components/Header';
-import Main from './components/Main';
+import Calc from './components/Calc';
+import Weather from './components/Weather'
 
 export default function App() {
   return (
@@ -9,7 +10,8 @@ export default function App() {
       <Header />
       {/* Create Card Component Here */}
       <div className='main-container'>
-        <Main />
+        <Calc />
+        <Weather />
       </div>
 
     </div>
